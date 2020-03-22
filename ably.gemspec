@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'em-http-request', '~> 1.1'
   spec.add_runtime_dependency 'statesman', '~> 1.0.0'
   spec.add_runtime_dependency 'faraday', '~> 0.12'
-  spec.add_runtime_dependency 'excon', '~> 0.55'
+  spec.add_runtime_dependency 'typhoeus', '~> 1.3.1'
 
   if RUBY_VERSION.match(/^1\./)
     spec.add_runtime_dependency 'json', '< 2.0'
